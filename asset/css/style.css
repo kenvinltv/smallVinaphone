@@ -1,0 +1,63 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: #333333;
+    font-weight: 300;
+    font-size: 17px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+}
+.container{
+	width: 1000px;
+}
+.wrapper{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.phone-request{
+	background: url(../img/phong-nen.png) no-repeat;
+	background-size: cover;
+    padding: 50px 0;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+.phone-request:before{
+	content: '';
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.phone-request-content form input[type="text"],.phone-request-content form textarea{
+	margin-bottom: 10px;
+	width: 100%;
+	display: block;	
+	padding:6px 12px;
+	border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.phone-request-content form input[type="submit"]{
+	background: #3695ee;
+	font-weight: 700;
+	color: #ffffff;
+	border: 1px solid #3695ee;
+}
+.phone-request-content form input[type="submit"]:hover{
+	background: #ffffff;	
+	color: #3695ee;
+	border: 1px solid #3695ee;
+}
+.phone-request-content h2 span{
+	font-weight: 700;
+	color: rgb(54, 149, 238);
+}

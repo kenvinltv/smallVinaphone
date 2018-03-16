@@ -9,5 +9,7 @@
 	define('PASS','');
 	define('DATABASE','smallVinaphone');
 	
-	
+	//meta
+	define('title','');
+	define('description','');	
 ?>

@@ -7,7 +7,7 @@
 	define('HOST','localhost');
 	define('USER','root');
 	define('PASS','');
-	define('DATABASE','smallVinaphone');
+	define('DATABASE','vinaphonedb');
 	
 	//meta
 	define('title','');

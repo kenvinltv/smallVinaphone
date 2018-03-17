@@ -9,6 +9,7 @@ body{
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Montserrat', sans-serif;
 }
+a:hover{text-decoration: none;}
 .container{
 	width: 1000px;
 }
@@ -60,4 +61,106 @@ h1,h2,h3,h4,h5,h6{
 .phone-request-content h2 span{
 	font-weight: 700;
 	color: rgb(54, 149, 238);
+}
+.mobile-internet{
+	background: rgb(54, 149, 238);
+	color: #ffffff;
+	padding: 15px 0;
+	box-sizing: border-box;
+}
+.box-content h4 {
+    font-weight: 400;
+    line-height: 27px;
+    margin: 0 0 10px 0;
+}
+.box-content h4 a{
+	color: #ffffff;
+}
+.title:after {
+    content: '';
+    display: inline-block;
+    height: 2px;
+    width: 100%;
+    margin: 10px auto 10px;
+}
+.box-thumbnails{
+	width: 20%;
+	float: left;
+	display: block;
+}
+.box-thumbnails span{
+	font-size: 40px;
+	text-align: left;
+}
+.box-content{
+	width: 80%;
+	float: right;
+	display: block;
+}
+.ezCom .title h2 span:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 40%;
+    background: #ffffff;
+    margin: 10px 0 15px;
+}
+.price-mobile-internet {
+    background: rgba(245,245,245,1);
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+.price-mobile-internet .box-content h4 a{
+	color: #3695ee;
+}
+.price-mobile-internet .title h2:after{
+	content: '';
+    display: block;
+    height: 2px;
+    width: 40%;
+    background: #3695ee;
+    margin: 10px auto 15px;
+}
+.price-mobile-internet .title h2 span{
+	text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: #3695ee;
+    font-weight: 600;
+    line-height: 42px;
+}
+.note-text{
+	color: #3695ee;
+    font-weight: 600;
+    font-size: 120%;
+}
+.price-slide .item{
+	background-color: rgba(255,255,255,1);
+    font-family: 'Open Sans',sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(0,0,0,1);
+    box-shadow: 3px 3px 16px rgba(201,201,201,1);
+	padding: 16px;
+    box-sizing: border-box;
+}
+.price-slide .thumbnails{
+	font-size: 60px;
+    color: #333333;
+    font-weight: 700;    
+    margin-bottom: 10px;
+}
+.title-slide {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: #3695ee;
+    font-weight: 300;
+    line-height: 17px;
+}
+.description-slide p {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(148,148,148,1);
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
 }
